@@ -1,8 +1,25 @@
-# 构建产物
-build/
-*.o
-*.a
+# Archives
+*.zip
+*.tar.gz
+*.7z
 
-# 临时文件
-.tmp/
-.tmp_*
+# Compiled output
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build directories
+build/
+Debug/
+Release/
